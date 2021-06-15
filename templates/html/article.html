@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/article.css" />
+    <script src="../js/article.js"></script>
+</head>
+<body>
+    <div id="vi">
+        <div id="tt">
+            __学习一时爽<br />
+            一直学习一直爽
+        </div>
+    </div>
+
+    <div id="nav">
+        <ul>
+            <li><a href="index.html" target="_self">首页</a></li>
+            <li><a class="bar">|</a></li>
+            <li><a href="article.html" target="_self">日记</a></li>
+            <li><a class="bar">|</a></li>
+            <li><a href="photo.html" target="_self">图片</a></li>
+            <li><a class="bar">|</a></li>
+            <li><a href="message.html" target="_self">留言</a></li>
+        </ul>
+    </div>
+    <div id="main">
+        <div id="right">
+            <h4>|最新日记</h4>
+            <h5><a onclick="openContent(0)">网页设计与开发结课纪念，完结撒花</a></h5>
+            <span class="date">2020/12/25</span><br />
+            <p>双学位网页设计与开发的学习终于告一段落，我想我终于能够制作一个属于自己的网站了！虽然说起来有点简单，但是实际敲代码的过程还是很让人抓狂的QAQ。
+            </p>
+            <hr />
+            <h5><a onclick="openContent(1)">为了曾锐的生日(゜-゜)つロ 干杯~</a></h5>
+            <span class="date">2020/12/15</span><br />
+            <p>普通话并不标准，从山城来的孩子曾锐终于过生日了，这顿烤肉请寝室里吃得开心w，跟谁恰在哪恰恰什么我一问三不知（并不），没想到烤肉最后还是石锅拌饭把人吃饱，寝室里在一起嗨皮的时光真是令人身心愉悦23333，我还在期待下一个幸运儿请大家恰饭，最后最后祝曾锐早点找个女朋友，顺便生日快乐！</p>
+            <hr />
+            <h5><a onclick="openContent(2)">开始看《佐贺偶像是传奇》了</a></h5>
+            <span class="date">2020/11/28</span>
+            <br />
+            <p>《ZOMBIE LAND SAGA》是MAPPA、avex pictures、Cygames共同制作的原创电视动画，于2017年7月6日在美国的AnimeExpo 2018上宣布了该企划。动画于2018年10月4日起每周四在AbemaTV和AT-X首播。中国大陆由AcFun独家发布.全12话。</p>
+            <hr />
+            <h5><a onclick="openContent(3)">开始玩《层层恐惧》了</a></h5>
+            <span class="date">2020/11/20</span>
+            <br />
+            <p>由波兰开发商Bloober Team制作的一款PC恐怖游戏《层层恐惧（Layers of Fear）》
+于2016年2月16日发售。在本作中玩家需要探索一个不断产生变化的19世纪风格的房屋，来了解一个疯狂画家可怕的内心深处。 [1] 
+游戏中玩家需要探索一个恐怖的玩家们来了解一位发疯画家的创作过程的心理变化。透过视野一层一层清晰后，玩家会被恐惧和惊悚缠绕，并最终完成奋斗已久的杰作。玩家将探索一系列的多样的房间，通过未知的道路，听到奇怪的声响，走过幽静的走廊，到达灰暗的地下室...</p>
+            <hr />
+            <h5><a onclick="openContent(4)">开始读《瓦尔登湖》了</a></h5>
+            <span class="date">2020/11/13</span>
+            <br />
+            <p>《瓦尔登湖》是美国作家梭罗独居瓦尔登湖畔的记录，描绘了他两年多时间里的所见、所闻和所思。该书崇尚简朴生活，热爱大自然的风光，内容丰厚，意义深远，语言生动。</p>
+            <hr />
+            <a href="#">下一页</a>
+        </div>
+    </div>
+    <div id="bt">小站不易，有学习交流请和站长联系<br />
+        <span id="sysmsg"></span>
+    </div>
+    <div id="content">
+        <h5 id="content_h5"></h5>
+        <span class="date" id="content_span"></span>
+        <br />
+        <p id="content_p"></p>
+        <button onclick="closeContent(this)">关闭窗口</button>
+    </div>
+
+</body>
+</html>

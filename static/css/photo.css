@@ -1,0 +1,161 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+html, body {
+    scrollbar-face-color:#98a363;
+    scrollbar-highlight-color:#e3e69d;
+    scrollbar-shadow-color:#999;
+    scrollbar-3dlight-color:#000;
+    scrollbar-arrow-color:#000;
+    scrollbar-track-color:#f4f4f0;
+    scrollbar-darkshadow-color:#666;
+}
+
+body {
+    background:#d9d7cd;
+    background-image: url("../images/background1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+ul {
+    list-style:none;
+    font-size:12px;
+}
+#vi,#nav,#main,#bt {
+    width: 1200px;
+    margin: 0px auto;
+}
+#bt {
+    background-color:#000;
+}
+#vi {
+    height:85px;
+    background:#98a363;
+    background-image:url("../images/vii.png");
+	color: aliceblue;
+
+}
+#tt {
+    margin-left:120px;
+    padding-top:10px;
+    text-indent:-40px;
+    line-height:1.8em;
+    font-size:20px;
+    font-weight:bold;
+}
+#nav {
+    height:35px;
+    background:#C3B9B9;
+}
+#nav ul {
+    margin-left: 30px;
+}
+#nav ul li {
+    float:left;
+}
+#nav ul a {
+    display: block;
+    width: 150px;
+    height:25px;
+    padding-top: 10px;
+    text-decoration: none;
+    letter-spacing: 15px;
+    text-align: center;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+}
+#nav ul a:visited {
+    color: #000;
+}
+#nav ul a:hover {
+    color: #98a363;
+    background: #fff;
+}
+#nav ul li.bar {
+    width: 6px;
+    padding-top: 12px;
+}
+#main {
+    height: 700px;
+    background:#fff;
+}
+#bt {
+    height: 46px;
+    padding-top: 34px;
+    text-align: center;
+    color: #C3B9B9;
+	background-image: url("../images/bt2.png");
+}
+h4 {
+    letter-spacing: 1em;
+    font-size: 15px;
+    background:#C3B9B9;
+    height:24px;
+    border-bottom: 1px solid #d9d7cd;
+    padding-top: 5px;
+    margin-top: 2px;
+    padding-left: 10px;
+}
+#right {
+    width: 754px;
+    height: 538px;
+    border: 1px solid #d9d7cd;
+    margin-top: 10px;
+    margin-left: 10px;
+    float:left;
+}
+#right h4 {
+    width: 744px;
+}
+#right h5 {
+    font-size: 13px;
+    text-align: center;
+}
+#right a {
+    color: lightblue;
+}
+#right a:visited {
+    color: #333;
+}
+#right a:hover {
+    color: #d9d7cd;
+}
+#right table td {
+    text-align: center;
+}
+#right img {
+    width: 180px;
+    height: 100px;
+    border: 1px solid #999;
+}
+#content {
+    position: absolute;
+    top:0px;
+    left:0px;
+    display:none;
+    width: 100%;
+    height: 100%;
+    background:#000;
+    text-align: center;
+    filter: alpha(opacity=85);
+}
+#content_h5 {
+    text-align: center;
+    font-size: 16px;
+}
+#content_p {
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    display: none;
+}
+#content_btn {
+    width: 100px;
+    margin-top: 10px;
+    border: 1px solid #999;
+}

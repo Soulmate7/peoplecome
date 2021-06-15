@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/photo.css" />
+    <script src="../js/photo.js"></script>
+</head>
+<body>
+    <div id="vi">
+        <div id="tt">
+            __学习一时爽<br />
+            一直学习一直爽
+        </div>
+    </div>
+
+
+    <div id="nav">
+        <ul>
+            <li><a href="index.html" target="_self">首页</a></li>
+            <li><a class="bar">|</a></li>
+            <li><a href="article.html" target="_self">日记</a></li>
+            <li><a class="bar">|</a></li>
+            <li><a href="photo.html" target="_self">图片</a></li>
+            <li><a class="bar">|</a></li>
+            <li><a href="message.html" target="_self">留言</a></li>
+        </ul>
+    </div>
+    <div id="main">
+        <div id="right">
+            <h4>|图片列表</h4>
+            <table align="center" cellpadding="0" cellspacing="20" width="750">
+                <tr>
+                    <td><h5><a onclick="openContent(0)">p站同人圣诞贺图</a></h5></td>
+                    <td><h5><a onclick="openContent(1)">绀野纯子w</a></h5></td>
+                    <td><h5><a onclick="openContent(2)">六花&茜</a></h5></td>
+                </tr>
+                <tr>
+                    <td><a onclick="openContent(0)"><img src="../images/p1.png" alt="../images/1544656622788.jpg"/></a></td>
+                    <td><a onclick="openContent(1)"><img src="../images/p2.png" alt="../images/1544719625369.jpg" /></a></td>
+                    <td><a onclick="openContent(2)"><img src="../images/p3.png" alt="../images/1545151528886.jpg" /></a></td>
+                </tr>
+                <tr>
+                    <td><h5><a onclick="openContent(3)">p站同人新年贺图</a></h5></td>
+                    <td><h5><a onclick="openContent(4)">p站同人圣诞贺图</a></h5></td>
+                    <td><h5><a onclick="openContent(5)">2018p站同人新年贺图</a></h5></td>
+                </tr>
+                <tr>
+                    <td><a onclick="openContent(3)"><img src="../images/p4.png" alt="../images/1545665583534.jpg" /></a></td>
+                    <td><a onclick="openContent(4)"><img src="../images/p5.png" alt="../images/1545665596465.jpg" /></a></td>
+                    <td><a onclick="openContent(5)"><img src="../images/p6.png" alt="../images/1545665612348.jpg" /></a></td>
+                </tr>
+                <tr>
+                    <td><h5><a onclick="openContent(6)">布拉达特曼</a></h5></td>
+                    <td><h5><a onclick="openContent(7)">雪初音</a></h5></td>
+                    <td><h5><a onclick="openContent(8)">Jill</a></h5></td>
+                </tr>
+                <tr>
+                    <td><a onclick="openContent(6)"><img src="../images/p7.png" alt="../images/1545957568110.jpg" /></a></td>
+                    <td><a onclick="openContent(7)"><img src="../images/p8.png" alt="../images/1545957374763.jpg" /></a></td>
+                    <td><a onclick="openContent(8)"><img src="../images/p9.png" alt="../images/1543965766116.jpg" /></a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="bt">小站不易，有学习交流请和站长联系</div>
+    <div id="content"></div>
+    <p id="content_p">
+        <img src="" id="img_dis" /> <br />
+        <button onclick="closeContent(this)" id="content_btn">关闭窗口</button>
+    </p>
+</body>
+</html>
